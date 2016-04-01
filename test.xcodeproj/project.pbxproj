@@ -15,6 +15,8 @@
 		525934BA1C9BB3F9003479A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525934B81C9BB3F9003479A1 /* LaunchScreen.storyboard */; };
 		525934C51C9BB3F9003479A1 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525934C41C9BB3F9003479A1 /* testTests.m */; };
 		525934D01C9BB3F9003479A1 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525934CF1C9BB3F9003479A1 /* testUITests.m */; };
+		525934DE1C9BE0D3003479A1 /* 640*960.png in Resources */ = {isa = PBXBuildFile; fileRef = 525934DD1C9BE0D2003479A1 /* 640*960.png */; };
+		525934E11C9BE1C1003479A1 /* myControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525934E01C9BE1C1003479A1 /* myControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		525934CB1C9BB3F9003479A1 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525934CF1C9BB3F9003479A1 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		525934D11C9BB3F9003479A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525934DD1C9BE0D2003479A1 /* 640*960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640*960.png"; sourceTree = "<group>"; };
+		525934DF1C9BE1C1003479A1 /* myControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myControllerViewController.h; sourceTree = "<group>"; };
+		525934E01C9BE1C1003479A1 /* myControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		525934A91C9BB3F9003479A1 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				525934DD1C9BE0D2003479A1 /* 640*960.png */,
 				525934AD1C9BB3F9003479A1 /* AppDelegate.h */,
 				525934AE1C9BB3F9003479A1 /* AppDelegate.m */,
 				525934B01C9BB3F9003479A1 /* ViewController.h */,
 				525934B11C9BB3F9003479A1 /* ViewController.m */,
+				525934DF1C9BE1C1003479A1 /* myControllerViewController.h */,
+				525934E01C9BE1C1003479A1 /* myControllerViewController.m */,
 				525934B31C9BB3F9003479A1 /* Main.storyboard */,
 				525934B61C9BB3F9003479A1 /* Assets.xcassets */,
 				525934B81C9BB3F9003479A1 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				525934BA1C9BB3F9003479A1 /* LaunchScreen.storyboard in Resources */,
+				525934DE1C9BE0D3003479A1 /* 640*960.png in Resources */,
 				525934B71C9BB3F9003479A1 /* Assets.xcassets in Resources */,
 				525934B51C9BB3F9003479A1 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525934E11C9BE1C1003479A1 /* myControllerViewController.m in Sources */,
 				525934B21C9BB3F9003479A1 /* ViewController.m in Sources */,
 				525934AF1C9BB3F9003479A1 /* AppDelegate.m in Sources */,
 				525934AC1C9BB3F9003479A1 /* main.m in Sources */,
@@ -498,6 +508,7 @@
 				525934D61C9BB3F9003479A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525934D71C9BB3F9003479A1 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				525934D91C9BB3F9003479A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525934DA1C9BB3F9003479A1 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				525934DC1C9BB3F9003479A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
